@@ -13,6 +13,7 @@ Considering this, I'm using playwright with JS, because is fast and easy to conf
 Please create a Cypress test for the login workflow for Bookshelf Online at <https://bookshelf.vitalsource.com>, validating that authentication is successful and the test user is redirected to the library dashboard. Provide some type of documentation (video, screenshots or otherwise).
  
 In order to do this, you'll need to manually create an account first. If your library is empty and you'd like to explore our e-text reading platform, redeem this sample code: G7NGW6KP8C7J3SBV2J3K
+
 -----
 
 ### Requirements
