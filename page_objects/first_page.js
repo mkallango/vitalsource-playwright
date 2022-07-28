@@ -14,7 +14,7 @@ export class FirstPage{
     }
 
     async verifyAccount(email){
-        let email_logged = await firstPage.account_settings_menu.locator(`text="${email}"`).innerText()
+        let email_logged = await this.account_settings_menu.locator(`text="${email}"`).innerText()
         await expect(email_logged).toBe(email)  
     }
 }

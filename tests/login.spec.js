@@ -30,7 +30,7 @@ test('Validate login access', async ({ page, browserName, browser}) => {
   await firstPage.account_settings_button.click()
   await firstPage.page.waitForLoadState('networkidle');
   
-  await expect(firstPage.library_tab).toBeVisible({timeout: 5000})
+  await expect(firstPage.library_tab).toBeVisible({timeout: 20000})
   await expect(firstPage.library_title).toBeVisible()
 
   await get_screenshot(page, evidence_folder, "library", browser_info)
