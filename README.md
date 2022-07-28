@@ -7,7 +7,8 @@ I believe that we are facing some JS errors with a RUM service, as per Cypress o
 Considering this, I'm using playwright with JS, because is fast and easy to configure and create the test case scenarios, and mitigate this gap that we have with Cypress.io.
 
 -----
-## Task Scenario: Validate that authentication is successful and the test user is redirected to the library page
+## Task Scenario: 
+### Validate that authentication is successful and the test user is redirected to the library page
 
 Please create a Cypress test for the login workflow for Bookshelf Online at <https://bookshelf.vitalsource.com>, validating that authentication is successful and the test user is redirected to the library dashboard. Provide some type of documentation (video, screenshots or otherwise).
  
