@@ -1,4 +1,4 @@
-# VitalSource POC with Playwright
+# Bookshelf - VitalSource - POC with Playwright
 
 I chosed to use the Playwright framework instead of Cypress, due to the fact that we are dealing with some CORS request and to not lose too much time investigating why the Cypress is not working properly.
 
