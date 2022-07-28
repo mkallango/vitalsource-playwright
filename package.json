@@ -1,0 +1,17 @@
+{
+  "name": "vitalsource-playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test --workers=1",
+    "debug": "npx playwright test --debug",
+    "report": "npx playwright show-report"
+  },
+  "author": "Marcello Mello",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.24.1",
+    "playwright": "^1.24.1"
+  }
+}
