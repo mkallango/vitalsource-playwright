@@ -20,12 +20,12 @@ In order to do this, you'll need to manually create an account first. If your li
 
 * Nodejs ^15.4.0
 * Playwright (installed with npm install command)
-* Create an account at https://bookshelf.vitalsource.com/
+* Create an ACCOUNT at https://bookshelf.vitalsource.com/
 -----
 
 ### Project structure
 
-* The "data" folder contains the file with Account information for login purposes, and if necessary we can create more files to be used as a Data Source.
+* Setup you EMAIL and PASSWORD in the file "data/user.js". The "data" folder contains the file with Account information for login purposes, and if necessary we can create more files to be used as a Data Source.
 
 * The page_objects folder contains the scripts that map the elements and take some actions on these pages.
   * Login Page as the name says is the login page where we gonna populate with the Loggin Account.
